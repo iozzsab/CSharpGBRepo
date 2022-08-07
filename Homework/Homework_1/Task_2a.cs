@@ -1,6 +1,8 @@
-﻿/*  Самойлов Оскар
+﻿/*  
+ * Самойлов Оскар
  * 2. Ввести вес и рост человека. Рассчитать и вывести индекс массы тела (ИМТ) по формуле I=m/(h*h); где m — масса тела в килограммах, h — рост в метрах.
  * */
+
 using Homework.Utils;
 using System;
 
@@ -11,9 +13,8 @@ namespace Homework_1
         static void Main(string[] args)
         {                   
             Console.Title = "ИМТ";
-            OutputHelpers.PrintName(1, 2);
+            OutputHelpers.PrintInfo(1, 2);
             
-
             Console.WriteLine("\nВычисление индекса массы тела");
             Console.WriteLine("_______________________________");
 
@@ -29,12 +30,6 @@ namespace Homework_1
             Console.WriteLine($"\nВаш индекс массы тела равен: {bmi}");
 
             Console.ReadLine();
-
-
-            
-
-
-
         }
     }
 }
