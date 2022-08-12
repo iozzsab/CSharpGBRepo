@@ -46,7 +46,7 @@ namespace Homework_2
                 if (flag)
                 {
                     posNum++;
-                    sumNum += posNum;
+                    sumNum += number;
                 }
             }
             Console.WriteLine($"\nКоличество \"хороших\" чисел в диапазоне от {minNum} до {maxNum} равно {posNum}, сумма: {sumNum}");
